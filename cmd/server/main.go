@@ -15,7 +15,7 @@ func main(){
 
 	r.GET("/", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
-			"message": "Server Running",
+			"message": "Powered by Go.",
 		})
 	})
 
